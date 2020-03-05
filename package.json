@@ -1,0 +1,27 @@
+{
+  "homepage":"http://MDRezaulHasan.github.io/DinnerPlannerApp",
+  "name": "dinnerplanner-html-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "query-string": "^6.5.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-select": "^2.4.3",
+    "three": "^0.101.1"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "gh-pages": "^2.2.0"
+  }
+}
